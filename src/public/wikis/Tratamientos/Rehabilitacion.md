@@ -1,3 +1,13 @@
+- [BLANQUEAMIENTO](#blanqueamiento)
+- [CARILLAS](#carillas)
+- [CORONA DE ACERO](#corona-de-acero)
+- [CORONA DE ORA](#corona-de-ora)
+- [FERULIZACIÓN](#ferulizaci%c3%93n)
+- [PPF IMPLANTO SOPORTADA](#ppf-implanto-soportada)
+- [PROTESIS PARCIAL FIJA](#protesis-parcial-fija)
+- [PROTESIS PARCIAL REMOVIBLE](#protesis-parcial-removible)
+- [RECINA Y AMALGAMA](#recina-y-amalgama)
+
 ## BLANQUEAMIENTO
 >El blanqueamiento dental es un tratamiento de odontología estética 
 que tiene por objetivo eliminar las manchas dentales y hacer que la dentición 
@@ -12,7 +22,7 @@ vital que el profesional conozca a fondo tanto las indicaciones como las
 contraindicaciones de las técnicas de blanqueamiento dental para poder 
 transmitírselas a los pacientes.
 
-![Blanquamiento](blanqueamiento-dental.jpg)
+![Blanquamiento](rehabilitacion/blanqueamiento-dental.jpg)
 
 ## CARILLAS
 >Las carillas dentales son finas láminas de resina o porcelana que pueden 
@@ -29,7 +39,7 @@ repararse si se agrietan o quiebran, siendo necesario sustituir cada lámina
 defectuosa. El precio varía de acuerdo con el tipo de carilla que se utilice, 
 siendo las de porcelana más costosas que las de resina. 
 
-![Carillas](carillas.jpg)
+![Carillas](rehabilitacion/carillas.jpg)
 
 ## CORONA DE ACERO
 >Las coronas de acero inoxidable son del tipo prefabricadas, se 
@@ -46,7 +56,7 @@ corona se perderá de forma natural cuando sea reemplazado.
 niños, ya que no requieren varias visitas al dentista, siendo más rentables que 
 las coronas a medida.
 
-![Corona de acero](corona_acero.jpg)
+![Corona de acero](rehabilitacion/corona_acero.jpg)
 
 ## CORONA DE ORA
 >Tradicionalmente y durante siglos, el oro ha sido el material preferido 
@@ -67,7 +77,7 @@ décadas, y aunque hoy día se realizan muy pocas restauraciones dentales con es
 material, los dientes con coronas de oro no suponen un riesgo para la salud y son 
 perfectamente útiles y seguras en los pacientes que ya las tienen.
 
-![Corona de oro](corona_oro.jpg)
+![Corona de oro](rehabilitacion/corona_oro.jpg)
 
 ## FERULIZACIÓN
 >La ferulización dental es uno de los procedimientos más antiguos de 
@@ -76,7 +86,7 @@ de 500 años a.C. cuyos incisivos habían sido amarrados con una ligadura de hil
 Este procedimiento consiste en la unión de dos o más dientes con la finalidad de 
 aumentar la estabilidad y evitar la movilidad de estos dientes unidos. 
 
-![Ferulización](ferulizacion.jpg)
+![Ferulización](rehabilitacion/ferulizacion.jpg)
 
 ## PPF IMPLANTO SOPORTADA
 >Las prótesis sobre implantes son prótesis 
@@ -89,7 +99,7 @@ implantes dentales se pueden hacer mediante rehabilitaciones implantosoportadas
 (rehabilitación fija) o mediante rehabilitaciones implantomucosoportadas 
 (rehabilitaciones removibles o sobredentaduras).
 
-![implantes](ppf_implantosoportada.jpg)
+![implantes](rehabilitacion/ppf_implantosoportada.jpg)
 
 ## PROTESIS PARCIAL FIJA
 >Son las prótesis dentales que se realizan para suplantar 
@@ -98,7 +108,7 @@ dentales que están en la boca del paciente de forma fija. Pueden ser para un
 diente (corona) o para varios (puente).
 Son trabajos de precisión y totalmente a medida del paciente.
 
-![protesis fija](protesis_parcial_Fija.jpg)
+![protesis fija](rehabilitacion/protesis_parcial_Fija.jpg)
 
 ## PROTESIS PARCIAL REMOVIBLE
 > Las prótesis removibles son un tratamiento de 
@@ -107,7 +117,7 @@ de modo que el paciente pueda colocársela y quitársela cuando lo necesite, lo 
 facilita enormemente su higiene. Se utiliza para suplir las ausencias dentales en 
 las personas que han perdido uno o más dientes, pero no todos.
 
-![protesis removible](protesis-parcial-removible.jpg)
+![protesis removible](rehabilitacion/protesis-parcial-removible.jpg)
 
 ## RECINA Y AMALGAMA 
 >Es un modo de reparar un diente dañado por caries y devolverle 
@@ -120,4 +130,4 @@ evitar futuras caries. Los materiales utilizados pueden ser oro, porcelana, resi
 composite (restauraciones del mismo color del diente), y amalgama (aleación de 
 mercurio, plata, cobre, estaño y a veces zinc).
 
-![recina](recina_amalgama.jpg)
+![recina](rehabilitacion/recina_amalgama.jpg)

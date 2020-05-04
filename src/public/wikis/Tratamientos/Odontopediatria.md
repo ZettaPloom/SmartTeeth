@@ -1,3 +1,4 @@
+- [ODONTOPEDIATRIA](#odontopediatria)
 ## ODONTOPEDIATRIA
 >Aparotologia:Cuando los niños son más pequeños, todos sus huesos están a medio 
 formar y por lo tanto, muchas veces se detecta que los maxilares están colocados 
@@ -8,4 +9,4 @@ los dientes en una posición correcta. Sin embargo, hay otros pacientes que
 necesitan dos fases, y algunos, sólo los aparatos fijos (sobre todo cuando los 
 niños son más mayores, cerca de la adolescencia).
 
-![Odontopediatria](aparatologia.jpg)
+![Odontopediatria](Odontopediatria/aparatologia.jpg)

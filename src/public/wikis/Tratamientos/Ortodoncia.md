@@ -1,3 +1,4 @@
+- [ORTODONCIA](#ortodoncia)
 ## ORTODONCIA
 >La ortodoncia es una especialidad odontológica que estudia, previene y
 corrige las alteraciones del desarrollo, las formas de las arcadas dentarias y la 
@@ -11,4 +12,4 @@ funcionales de la masticación. La oclusión se basa en las relaciones de contac
 que existen entre los dientes de las distintas arcadas (es decir entre los dientes 
 superiores y los inferiores).
 
-![ortodoncia](ortodoncia.jpg)
+![ortodoncia](ortodoncia/ortodoncia.jpg)
