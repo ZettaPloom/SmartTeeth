@@ -1,13 +1,4 @@
-- [BLANQUEAMIENTO](#blanqueamiento)
-- [CARILLAS](#carillas)
-- [CORONA DE ACERO](#corona-de-acero)
-- [CORONA DE ORA](#corona-de-ora)
-- [FERULIZACIÓN](#ferulizaci%c3%93n)
-- [PPF IMPLANTO SOPORTADA](#ppf-implanto-soportada)
-- [PROTESIS PARCIAL FIJA](#protesis-parcial-fija)
-- [PROTESIS PARCIAL REMOVIBLE](#protesis-parcial-removible)
-- [RECINA Y AMALGAMA](#recina-y-amalgama)
-
+# Reabilitacion
 ## BLANQUEAMIENTO
 >El blanqueamiento dental es un tratamiento de odontología estética 
 que tiene por objetivo eliminar las manchas dentales y hacer que la dentición 

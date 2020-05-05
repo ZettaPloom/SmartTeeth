@@ -1,21 +1,4 @@
-# __INFERIORES__- [__INFERIORES__](#inferiores)
-  - [CANINOS INFERIORES](#caninos-inferiores)
-    - [Externo:](#externo)
-    - [Interno:](#interno)
-  - [CORDAL](#cordal)
-    - [Cordal externo:](#cordal-externo)
-  - [INCISIVOS CENTRALES INFERIORES](#incisivos-centrales-inferiores)
-    - [Externo:](#externo-1)
-    - [Interno:](#interno-1)
-  - [INCISIVO LATERAL INFERIOR](#incisivo-lateral-inferior)
-    - [Externo:](#externo-2)
-    - [Interno:](#interno-2)
-  - [PREMOLARES INFERIORES](#premolares-inferiores)
-    - [Externo:](#externo-3)
-    - [Interno:](#interno-3)
-  - [MOLARES INFERIORES](#molares-inferiores)
-    - [Externo:](#externo-4)
-    - [Interno:](#interno-4) 
+# Dientes Inferiores
 ## CANINOS INFERIORES
 >Su dimensión vestibulolingual siempre es mayor que la mesiodistal. 
 Es parecido al canino superior pero con los rasgos anatómicos menos marcados. Es 
@@ -88,9 +71,9 @@ en la cara distal. El tercio apical de la raíz se suele poseer una ligera
 desvicion hacia distal. Tiene la raíz ligeramente girada hacia lingual y distal. 
 Sirven para sostener lo que se ingiere.
 ### Externo:
-![Incisivo lateral inferior externo](inferiores/Incisivolateral_inferior_externo.jpg)
+![Incisivo lateral inferior externo](inferiores/incisivolateral_inferior_externo.jpg)
 ### Interno:
-![Incisivo lateral inferior interno](inferiores/Incisivolateral_inferior_interno.jpg)
+![Incisivo lateral inferior interno](inferiores/incisivolateral_inferior_interno.jpg)
 ## PREMOLARES INFERIORES
 >Están situados distalmente con respecto al canino inferior. No 
 es raro encontrar agenesias (ausencias) o dientes supernumerarios. El primer 

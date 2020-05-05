@@ -1,5 +1,4 @@
-- [ENDONCIA](#endoncia)
-- ## ENDONCIA
+# Endodoncia
 >Se llama endodoncia, de endo (interior) y odontos (diente), a un tipo 
 de tratamiento que se realiza en odontología. Consiste en la extirpación de la 
 pulpa dental y el posterior relleno y sellado de la cavidad pulpar con un 

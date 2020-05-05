@@ -18,7 +18,7 @@ require('./lib/passport');
 
 // Settings
 app.set('port', process.env.PORT || 4000);
-app.set('views', path.join(__dirname, 'views'));
+app.set('views', path.join(__dirname, 'views'), path.join(__dirname, 'public'));
 app.engine('.hbs', exphbs({
   defaultLayout: 'main',
   layoutsDir: path.join(app.get('views'), 'layouts'),
@@ -27,6 +27,7 @@ app.engine('.hbs', exphbs({
   helpers: require('./lib/handlebars')
 }))
 app.set('view engine', '.hbs');
+app.engine('html', require('ejs').renderFile);
 
 // Middlewares
 app.use(morgan('dev'));

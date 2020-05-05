@@ -1,8 +1,4 @@
-- [ALARGAMIENTO DE CORONA](#alargamiento-de-corona)
-- [DETARTRAJE DENTAL](#detartraje-dental)
-- [EXODONCIA](#exodoncia)
-- [IMPLANTES](#implantes)
-  
+# Periodoncia  
 ## ALARGAMIENTO DE CORONA
 >El alargamiento coronario es una técnica quirúrgica que 
 se concreta como el incremento de la longitud de la corona clínica. El término 

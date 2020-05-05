@@ -1,20 +1,4 @@
-# __SUPERIORES__- [__SUPERIORES__](#superiores)
-  - [CANINOS SUPERIORES](#caninos-superiores)
-    - [Camara pulpar de un canino:](#camara-pulpar-de-un-canino)
-    - [Externo:](#externo)
-    - [Interno:](#interno)
-  - [CORDAL](#cordal)
-    - [Cordal externo:](#cordal-externo)
-  - [INCISIVOS CENTRALES SUPERIORES](#incisivos-centrales-superiores)
-    - [Externo:](#externo-1)
-    - [Interno:](#interno-1)
-  - [INCISIVO LATERAL SUPERIOR](#incisivo-lateral-superior)
-  - [MOLARES SUPERIORES](#molares-superiores)
-    - [Externo:](#externo-2)
-    - [Interno:](#interno-2)
-  - [PREMOLARES SUPERIORES](#premolares-superiores)
-    - [Externo:](#externo-3)
-    - [Interno:](#interno-3)
+# Dientes Superiores
 ## CANINOS SUPERIORES
 >Tiene un gran tamaño coronal y radicular. Tiene una corona de 
 forma pentagonal, sus dimensiones mayores son las vestibulopalatinos con respecto

@@ -1,14 +1,4 @@
-- [CARCINOMA DE ENCÍA](#carcinoma-de-enc%c3%8da)
-- [CARCINOMA DE LENGUA](#carcinoma-de-lengua)
-- [CARIES DENTAL](#caries-dental)
-- [CONDROMA](#condroma)
-- [ENFERMEDAD PERIODONTAL](#enfermedad-periodontal)
-- [GINGIVITIS](#gingivitis)
-- [LEUCOPLAQUIA](#leucoplaquia)
-- [OSTEOMA](#osteoma)
-- [PAPILOMA](#papiloma)
-- [TORUS](#torus)
-- [TUMOR BENIGNO](#tumor-benigno)
+# Enfermedades
 >Además de las lesiones cariosas nuestros 
 dientes están sujetos a otra gran amenaza que no debe subestimarse si queremos 
 gozar de unos dientes sanos: el desgaste dental. El desgaste dental supone la 
