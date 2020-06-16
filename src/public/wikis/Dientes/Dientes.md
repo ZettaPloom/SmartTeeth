@@ -278,5 +278,3 @@ premolar superior.
 ![Premolar superior externo](superiores/premolar_superior_externo.jpg)
 ### Interno:
 ![Premolar superior interno](superiores/premolar_superior_interno.jpg)
-
-
