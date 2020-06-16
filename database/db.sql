@@ -28,6 +28,8 @@ CREATE TABLE IF NOT EXISTS wikis (
   id INT(11) NOT  NULL AUTO_INCREMENT,
   user_id INT(11) NOT NULL,
   title VARCHAR(100) NOT NULL,
+  category CHAR(20) NOT NULL,
+  content TEXT NOT NULL,
   link TEXT  NOT NULL,
   PRIMARY KEY (id),
   FOREIGN  KEY (user_id) REFERENCES users(id)

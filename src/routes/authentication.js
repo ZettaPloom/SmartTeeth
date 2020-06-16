@@ -67,11 +67,17 @@ router.get("/profile", isLoggedIn, (req, res) => {
         req.flash("message", "The Username does not exists.")
       );
     }
-  }
-  getFavorites(req);
-  async function getFavorites(req) {
-    const favorites = await pool.query('SELECT * FROM favorites WHERE user_id = ?', [req.user.id]);
-    res.render("profile", {favorites});
+  };
+  getFavoritesAndWikis(req);
+  async function getFavoritesAndWikis(req) {
+    const favorites = await pool.query(
+      "SELECT * FROM favorites WHERE user_id = ?",
+      [req.user.id]
+    );
+    const wikis = await pool.query("SELECT * FROM wikis WHERE user_id = ?", [
+      req.user.id,
+    ]);
+    res.render("profile", { favorites, wikis });
   }
 });
 
