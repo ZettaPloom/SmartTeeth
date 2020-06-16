@@ -2,6 +2,7 @@ const express = require("express");
 const router = express.Router();
 
 const passport = require("passport");
+const pool = require("../database");
 const { isLoggedIn } = require("../lib/auth");
 
 // SIGNUP
@@ -44,7 +45,34 @@ router.get("/logout", (req, res) => {
 });
 
 router.get("/profile", isLoggedIn, (req, res) => {
-  res.render("profile");
+  async (req, username, password, done) => {
+    const rows = await pool.query("SELECT * FROM users WHERE username = ?", [
+      username,
+    ]);
+    if (rows.length > 0) {
+      const user = rows[0];
+      const validPassword = await helpers.matchPassword(
+        password,
+        user.password
+      );
+      if (validPassword) {
+        done(null, user, req.flash("success", "Welcome " + user.username));
+      } else {
+        done(null, false, req.flash("message", "Incorrect Password"));
+      }
+    } else {
+      return done(
+        null,
+        false,
+        req.flash("message", "The Username does not exists.")
+      );
+    }
+  }
+  getFavorites(req);
+  async function getFavorites(req) {
+    const favorites = await pool.query('SELECT * FROM favorites WHERE user_id = ?', [req.user.id]);
+    res.render("profile", {favorites});
+  }
 });
 
 module.exports = router;

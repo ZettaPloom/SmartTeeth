@@ -1,10 +1,10 @@
-CREATE DATABASE db_smarttheeth;
+CREATE DATABASE IF NOT EXISTS db_smarttheeth;
 
 USE db_smarttheeth;
 
 -- TABLE USER
 -- all pasword wil be encrypted using SHA1
-CREATE TABLE users (
+CREATE TABLE IF NOT EXISTS users (
   id INT(11) NOT NULL AUTO_INCREMENT,
   username VARCHAR(16) NOT NULL,
   password VARCHAR(60) NOT NULL,
@@ -13,4 +13,26 @@ CREATE TABLE users (
   PRIMARY KEY (id)
 );
 
+-- TABLE FAVORITE WIKIS
+CREATE TABLE IF NOT EXISTS favorites (
+  id INT(11) NOT  NULL AUTO_INCREMENT,
+  user_id INT(11) NOT NULL,
+  title VARCHAR(100) NOT NULL,
+  link TEXT  NOT NULL,
+  PRIMARY KEY (id),
+  FOREIGN  KEY (user_id) REFERENCES users(id)
+);
+
+-- TABLE CREATED WIKIS
+CREATE TABLE IF NOT EXISTS wikis (
+  id INT(11) NOT  NULL AUTO_INCREMENT,
+  user_id INT(11) NOT NULL,
+  title VARCHAR(100) NOT NULL,
+  link TEXT  NOT NULL,
+  PRIMARY KEY (id),
+  FOREIGN  KEY (user_id) REFERENCES users(id)
+);
+
 DESCRIBE users;
+DESCRIBE favorites;
+DESCRIBE wikis;

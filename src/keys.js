@@ -1,5 +1,4 @@
 require('dotenv').config({path: 'src/.env'});
-console.log(process.env);
 
 module.exports = {
 

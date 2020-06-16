@@ -1,31 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>SmarthTeeth's Wikis</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Description" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <title>SmarthTeeth's Wikis</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Description">
-  <meta name="viewport"
-    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
-</head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <span onclick="return addToFavorites(this)" class="nav-link"
+              >&#11088;
+            </span>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/profile">Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/logout">Log out</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-<body>
-  <div id="app">Please wait...</div>
-  <script>
-    window.$docsify = {
-      name: 'SmarthTeeth\'s Wikis',
-      loadSidebar: true,
-      subMaxLevel: 3,
-      autoHeader: true,
-      alias: {
-        '/.*/_sidebar.md': '/_sidebar.md'
-      },
-      repo: ''
-    }
-  </script>
-  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
-</body>
-
+    <div id="app">Please wait...</div>
+    <script>
+      window.$docsify = {
+        name: "SmarthTeeth's Wikis",
+        loadSidebar: true,
+        subMaxLevel: 2,
+        alias: {
+          "/.*/_sidebar.md": "/_sidebar.md",
+        },
+        repo: "",
+      };
+    </script>
+    <script>
+      function addToFavorites(item) {
+        const href = window.location.href;
+        const titulo = prompt('Ingrese el título de la Wiki', 'Dientes Inferiores');
+        const params = {url: href, title: titulo};
+        const client = new XMLHttpRequest();
+        client.open('POST', "/favorite");
+        client.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+        client.send(JSON.stringify(params));
+        alert("Wiki añadida a favoritas");
+        return true;
+      }
+    </script>
+    <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  </body>
 </html>
