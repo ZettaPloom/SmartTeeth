@@ -3,7 +3,7 @@ const router = express.Router();
 
 const passport = require("passport");
 const pool = require("../database");
-const { isLoggedIn } = require("../lib/auth");
+const { isLoggedIn, isNotLoggedIn } = require("../lib/auth");
 
 // SIGNUP
 router.get("/signup", (req, res) => {
@@ -20,13 +20,14 @@ router.post(
 );
 
 // SINGIN
-router.get("/signin", (req, res) => {
+router.get("/signin", isNotLoggedIn, (req, res) => {
   res.render("auth/signin");
 });
 
 router.post("/signin", (req, res, next) => {
   req.check("username", "Username is Required").notEmpty();
   req.check("password", "Password is Required").notEmpty();
+  req.check("verificationCode", "Verification Code is Required").notEmpty();
   const errors = req.validationErrors();
   if (errors.length > 0) {
     req.flash("message", errors[0].msg);
@@ -57,10 +58,10 @@ router.get("/profile", isLoggedIn, (req, res) => {
       );
       if (validPassword) {
         done(null, user, req.flash("success", "Welcome " + user.username));
-      } else {
+      } else if (!validPassword) {
         done(null, false, req.flash("message", "Incorrect Password"));
       }
-    } else {
+    } else if (rows.length <= 0) {
       return done(
         null,
         false,

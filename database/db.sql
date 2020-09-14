@@ -9,6 +9,7 @@ CREATE TABLE IF NOT EXISTS users (
   username VARCHAR(16) NOT NULL,
   password VARCHAR(60) NOT NULL,
   fullname VARCHAR(100) NOT NULL,
+  secret VARCHAR (33) NOT NULL,
   created_at timestamp NOT NULL DEFAULT current_timestamp,
   PRIMARY KEY (id)
 );
