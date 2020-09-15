@@ -16,9 +16,11 @@ passport.use(
       passReqToCallback: true,
     },
     async (req, username, password, done) => {
-      const rows = await pool.query("SELECT * FROM users WHERE username = ?", [
-        username,
-      ]);
+      const key = username + password;
+      const rows = await pool.query(
+        "SELECT id, username, password, fullname, CAST(AES_DECRYPT(FROM_BASE64(secret), ?) AS CHAR) AS secret, created_at FROM users WHERE username = ?",
+        [key, username]
+      );
       if (rows.length > 0) {
         const user = rows[0];
         const validVerification = speakeasy.totp.verify({
@@ -74,12 +76,17 @@ passport.use(
             fullname,
             username,
             password,
-            secret: secretDB,
+            secret: 0,
           };
+          const key = username + password;
           newUser.password = await helpers.encryptPassword(password);
           // Saving in the Database
           const result = await pool.query("INSERT INTO users SET ? ", newUser);
           newUser.id = result.insertId;
+          const result1 = await pool.query(
+            "UPDATE users set secret = TO_BASE64(AES_ENCRYPT(?,?)) where id = ?",
+            [secretDB, key, newUser.id]
+          );
           const generateQR = async (text) => {
             try {
               return await QRCode.toDataURL(text);
